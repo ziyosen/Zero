@@ -1,12 +1,12 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "fevex52293.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "embul"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = "xinquins.biz.id"; // Ganti dengan domain utama kalian
+const serviceName = "benxx"; // Ganti dengan nama workers kalian
+const apiKey = "268b73740c0dbbaa7f6cf409924553f94a289"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "lozystore@outlook.co.id"; // Ganti dengan email yang kalian gunakan
+const accountID = "a434665e08ee73300928200f5432f4a4"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "401db880a73672941ff1a8a7773efdf3"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
 let proxyIP = "";
 let cachedProxyList = [];
@@ -16,7 +16,7 @@ const APP_DOMAIN = `${serviceName}.${rootDomain}`;
 const PORTS = [443, 80];
 const PROTOCOLS = [reverse("najort"), reverse("sselv"), reverse("ss")];
 const KV_PROXY_URL = "https://raw.githubusercontent.com/datayumiwandi/shiroko/refs/heads/main/Data/Alive.json";
-const PROXY_BANK_URL = "https://raw.githubusercontent.com/Mayumiwandi/Emilia/refs/heads/main/Data/alive.txt";
+const PROXY_BANK_URL = "https://raw.githubusercontent.com/zerokit-769/testt/refs/heads/main/ProxyList%20(1).txt";
 const DNS_SERVER_ADDRESS = "1.1.1.1";
 const DNS_SERVER_PORT = 53;
 const PROXY_HEALTH_CHECK_API = "https://id1.foolvpn.me/api/v1/check";
@@ -1029,7 +1029,7 @@ let baseHTML = `
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yumi Proxy List</title>
+    <title> Proxy List</title>
     <link rel="icon" type="image/x-icon"
         href="https://github.com/user-attachments/assets/b5feabb7-3f20-4028-9436-e3f3307dd2ae">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -1065,7 +1065,7 @@ let baseHTML = `
   );
   
   /* Ukuran background diperbesar agar transisi warna lebih halus */
-  background-size: 300% auto;
+  background-size: 200% auto;
   
   /* Ini adalah trik untuk membuat background hanya terlihat pada teks */
   color: transparent;
