@@ -1,4 +1,4 @@
 
 name = "zero"
-main = "_worker.js"
+main = "_workers.js"
 compatibility_date = "2024-12-01"
